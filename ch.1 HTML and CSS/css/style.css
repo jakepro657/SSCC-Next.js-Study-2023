@@ -1,0 +1,33 @@
+button {
+	width: 128px;
+	height: 48px;
+	background-color: #ff6f00;
+	border: none;
+	color: white;
+	box-shadow: 0 4px 16px #ff6f00;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: 0.3s;
+}
+
+/* On focus */
+button:focus {
+	outline: 0;
+}
+
+/* On hover */
+button:hover {
+	background-color: #ff6f00;
+	cursor: pointer;
+	box-shadow: 0 2px 2px #ff9442;
+}
+
+/* On click */
+button:active {
+	transform: translate(-50%, -50%) scale(0.95);
+}
